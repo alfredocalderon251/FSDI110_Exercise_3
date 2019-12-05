@@ -1,0 +1,120 @@
+<!--Temporal Link -->
+
+@section Styles{
+      <link href="~/css/register.css" rel="stylesheet">
+}
+
+@section Scripts{
+      <script src="~/js/register.js"></script>
+}
+
+
+
+
+
+<h1>Register New Car</h1>
+
+<!-- HTML Form (wrapped in a .bootstrap-iso div) -->
+<form id="car_form" action="">
+
+<div id="missing_fields" class="alert alert-danger">
+Please fill the missing fields
+</div>
+<div class="register-form">
+
+
+     <div class="form-group ">
+      <label class="control-label requiredField" for="txt_dailyprice">
+       DailyPrice
+       
+      </label>
+      <input class="form-control" id="txt_dailyprice" name="DailyPrice" type="number"/>
+     </div>
+
+     <div class="form-group ">
+      <label class="control-label requiredField" for="txt_year">
+       Year
+       
+      </label>
+      <input class="form-control" id="txt_year" name="Year" type="number"/>
+     </div>
+
+     <div class="form-group ">
+      <label class="control-label requiredField" for="txt_make">
+       Make
+       
+      </label>
+      <input class="form-control" id="txt_make" name="Make" type="text"/>
+     </div>
+
+     <div class="form-group ">
+      <label class="control-label requiredField" for="txt_model">
+       Model
+       
+      </label>
+      <input class="form-control" id="txt_model" name="Model" type="text"/>
+     </div>
+
+     <div class="form-group ">
+      <label class="control-label requiredField" for="txt_passenger">
+       PassengerCapacity
+       
+      </label>
+      <input class="form-control" id="txt_passenger" name="PassengerCapacity" type="text"/>
+     </div>
+     <div class="form-group ">
+      <label class="control-label requiredField" for="txt_milage">
+       Milage
+       
+      </label>
+      <input class="form-control" id="txt_milage" name="Milage" type="number"/>
+     </div>
+     <div class="form-group ">
+      <label class="control-label requiredField" for="txt_imageurl">
+       URL
+       
+      </label>
+      <input class="form-control" id="txt_imageurl" name="ImageURL" type="text"/>
+     </div>
+     <div class="form-group ">
+      <label class="control-label requiredField" for="txt_stock">
+       Stock
+       
+      </label>
+      <input class="form-control" id="txt_stock" name="txt_stock" type="number"/>
+     </div>
+     <div class="form-group ">
+      <label class="control-label requiredField" for="txt_hp">
+       HP
+       
+      </label>
+      <input class="form-control" id="txt_hp" name="HP" type="number"/>
+     </div>
+     <div class="form-group ">
+      <label class="control-label requiredField" for="txt_cyls">
+       Cyls
+       
+      </label>
+      <input class="form-control" id="txt_cyls" name="Cyls" type="number"/>
+     </div>
+     <div class="form-group ">
+      <label class="control-label requiredField" for="txt_description">
+       Description
+       
+      </label>
+      <input class="form-control" id="txt_description" name="Description" type="text"/>
+     </div>
+     <div class="form-group">
+      <div>
+       <button class="btn btn-primary " id="btn_save" name="submit" type="button">
+        Save Car
+       </button>
+
+       <div id="success" class="alert alert-success">
+             Car has been saved
+
+       </div>
+      </div>
+
+      </div>
+     </form>
